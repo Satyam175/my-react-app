@@ -118,7 +118,7 @@ const educationInfo = {
     {
       schoolName: "Peoples Public School",
       logo: require("./assets/images/pps.png"),
-      subHeader: "Class 12",
+      subHeader: "Class 10",
       duration: "2014 - 2015",
       desc: "CGPA - 8.8/10 ",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -218,7 +218,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -233,7 +233,7 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        ".",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
